@@ -9,6 +9,7 @@
 import SwiftUI
 import Combine
 
+@available(iOSApplicationExtension, unavailable)
 /// This is the modifier for the Partial Sheet
 struct PartialSheet: ViewModifier {
     
