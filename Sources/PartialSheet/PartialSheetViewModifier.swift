@@ -151,7 +151,8 @@ struct PartialSheet: ViewModifier {
     }
 }
 
-//MARK: - Platfomr Specific Sheet Builders
+@available(iOSApplicationExtension, unavailable)
+//MARK: -    Platfomr Specific Sheet Builders
 extension PartialSheet {
 
     //MARK: - Mac and iPad Sheet Builder
@@ -248,6 +249,7 @@ extension PartialSheet {
     }
 }
 
+@available(iOSApplicationExtension, unavailable)
 // MARK: - Drag Gesture & Handler
 extension PartialSheet {
 
@@ -319,6 +321,7 @@ extension PartialSheet {
     }
 }
 
+@available(iOSApplicationExtension, unavailable)
 // MARK: - Keyboard Handlers Methods
 extension PartialSheet {
 
@@ -352,6 +355,7 @@ extension PartialSheet {
     }
 }
 
+@available(iOSApplicationExtension, unavailable)
 // MARK: - PreferenceKeys Handlers
 extension PartialSheet {
 
